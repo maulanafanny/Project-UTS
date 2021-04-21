@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookslide - Online Bookstore</title>
+    <link rel = "icon" href ="logos.png" type = "image/x-icon"> 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+  
+  <!-- Navigation Bar -->
+  <nav class="navbar shadow mb-5 bg-white fixed-top navbar-expand-sm bg-light navbar-light">
+    
+    <!-- Navbar -->
+    <div>
+    <ul class="navbar-nav" style="margin-left: 30px;">
+      <li class="nav-item active">
+        <a class="nav-link" href="../Homepage/index.html">Home</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+            Katalog
+        </a>
+          <div class="dropdown-menu shadow mb-5 animate slideIn">
+            <a class="dropdown-item" href="product.html">Halaman Produk</a>
+            <a class="dropdown-item" href="#">Wishlist</a>
+            <a class="dropdown-item" href="#">Keranjang</a>
+            <a class="dropdown-item" href="#">Checkout</a>
+          </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="../Login Page/">Login</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="../Homepage/contact.html">Contacts</a>
+      </li>
+    </ul>
+    </div>
+      <!-- Logo -->
+      <div style="position: relative; left: 15%;">
+        <li class="navbar-brand mx-auto" href="#">
+          <a>
+            <img src="logob.png" alt="logo" style="width: 110px; padding: 0px;">
+          </a>
+      </div>
+  </nav>
+
+  <!-- Hero Header -->
+  <div class="container-fluid hero-head" style="margin-top: 107px;">
+    <div class="hero-text-head" style="text-align: center;">
+      <h1 style="font-weight: bold; font-size: 30px; margin-bottom: 20px;">Selamat Datang di Bookslide</h1>
+      <h1 style="font-weight: bold; font-size: 52px;">Brand New & Used</h1>
+      <hr style="background-color: crimson; width: 25%;  border: none; height: 3px; margin-top: 25px; margin-bottom: 25px;">
+      <p style="font-size: 18px;">Order buku baru maupun bekas hanya di Bookslide, <br> Online Bookstore termurah dan terlengkap di Indonesia. <br> Kami menyediakan buku yang terbaik hanya untuk Anda.</p>
+      <br><br>
+      <a class="btn-cta btn-cta-1" style="font-size: 20px; padding-right: 60px; padding-left: 60px;" href="#middle">
+        <span class="text-before">LIHAT KATALOG</span>
+        <span class="text-after">LIHAT KATALOG</span>
+      </a>
+    </div>
+  </div>
+
+  <!-- Greetings -->
+  <div style="display:flex; width: 75%; margin: auto; margin-top: 100px; margin-bottom: 100px;">
+    <div>
+      <h1 style="font-weight: bold; font-size: 90px; padding-top: 20px; color: #f6f6f6;">About Us</h1>
+      <h1 style="font-weight: bold; font-size: 33px; padding-bottom: 10px; margin-top: -75px;">Beberapa Kata Tentang Kami</h1>
+      <hr style="background-color: crimson; width: 25%;  border: none; height: 3px; position: relative; display: inline-block;">
+      <p class="text" style="color: #212529;">Bookslide menyediakan berbagai jenis buku untuk dibeli maupun disewa di seluruh wilayah Indonesia.
+      Kami bekerja sama dengan para penerbit secara langsung untuk memberi Anda pilihan buku terlengkap dan berkualitas.</p>
+      <p class="text" style="color: #93a6ab; font-weight: lighter; font-size: 14px; margin-bottom: 20px;">Sejak didirikan pada tahun 1999, kami membantu klien menghemat buku yang mereka pilih untuk disewa. Karena kami bermitra dengan lusinan penyedia buku, Anda selalu mendapatkan harga terbaik tanpa menghabiskan waktu mencari tempat terbaik untuk menyewa novel atau buku pelajaran perguruan tinggi favorit Anda. Selain itu, semuanya tersedia untuk pemesanan online hanya dengan beberapa klik mouse.</p>
+      <a target="_blank" class="btn-cta btn-cta-1" style="font-size: 14px;" href="index.html">
+        <span class="text-before">PELAJARI LEBIH LANJUT</span>
+        <span class="text-after">PELAJARI LEBIH LANJUT</span>
+      </a>
+    </div>
+    <img class="imgcol" src="https://livedemo00.template-help.com/wt_prod-21758/images/about-718x628.jpg" style="width: 570px;">
+  </div>
+
+  <!-- Kategori -->
+  <div class="container-fluid" style="margin-top: 100px; padding-bottom: 130px; background-color: #f6f6f6;">
+    <div style="padding-top: 140px;">
+      <h2 style="font-weight: bold; text-align: center;">Mengapa Memilih Bookslide?</h2>
+      <hr style="background-color: crimson; width: 20%;  border: none; height: 3px; margin-top: 25px; margin-bottom: 25px;">
+      <br>
+    </div>
+
+  <!-- Baris Pertama -->
+  <div class="row m-0" style="padding-bottom: 20px;">
+    <div class="col">
+      <i class="fa fa-truck" style="font-size: 40px; display: inline-block;"></i>
+      <h5 style="font-weight: bold; display: inline-block; text-align: center; vertical-align: middle; padding-bottom: 10px; padding-left: 20px;">Pengiriman Gratis</h5>
+      <br>
+      <p class="text" style="padding-top: 10px;">Bookslide menawarkan pengiriman gratis ke seluruh dunia, yang memungkinkan Anda untuk menyewa buku dari kami meskipun Anda tinggal jauh dari kantor pusat kami. Proses pengiriman cepat dan aman.</p>
+    </div>
+    <div class="col">
+      <i class="fa fa-exchange" style="font-size: 40px; display: inline-block;"></i>
+      <h5 style="font-weight: bold; display: inline-block; text-align: center; vertical-align: middle; padding-bottom: 10px; padding-left: 20px;">Pengembalian Mudah</h5>
+      <br>
+      <p class="text" style="padding-top: 10px;">Anda selalu dapat mengembalikan buku setelah Anda membacanya. Cukup gunakan tautan unik yang dapat ditemukan di dalam setiap buku kami. Kemudian isi formulir khusus dan kirim bukunya ke salah satu kantor kami. </p>
+    </div>
+    <div class="col">
+      <i class="fa fa-calendar" style="font-size: 40px; display: inline-block;"></i>
+      <h5 style="font-weight: bold; display: inline-block; text-align: center; vertical-align: middle; padding-bottom: 10px; padding-left: 20px;">Masa Sewa Fleksibel</h5>
+      <br>
+      <p class="text" style="padding-top: 10px;">Bookslide menggunakan kebijakan persewaan yang fleksibel untuk membantu pelanggan menikmati buku dari katalog kami tanpa batasan waktu. Anda akan menerima pemberitahuan jika masa sewa Anda berakhir.</p>
+    </div>
+  </div>
+
+  <!-- Baris Kedua -->
+  <div class="row m-0">
+    <div class="col">
+      <i class="fa fa-tags" style="font-size: 40px; display: inline-block;"></i>
+      <h5 style="font-weight: bold; display: inline-block; text-align: center; vertical-align: middle; padding-bottom: 10px; padding-left: 20px;">Sistem Diskon</h5>
+      <br>
+      <p class="text" style="padding-top: 10px;">Klien reguler Bookslide mendapat keuntungan dari pengurangan harga sewa buku dan diskon untuk buku baru dari katalog kami, yang diperbarui setiap hari. </p>
+    </div>
+    <div class="col">
+      <i class="fa fa-certificate" style="font-size: 40px; display: inline-block;"></i>
+      <h5 style="font-weight: bold; display: inline-block; text-align: center; vertical-align: middle; padding-bottom: 10px; padding-left: 20px;">Kepuasan Terjamin</h5>
+      <br>
+      <p class="text" style="padding-top: 10px;">Kami berharap Anda menyukai layanan persewaan buku kami. Tim kami berusaha semaksimal mungkin untuk menawarkan kepada Anda pengalaman menyewa buku yang mudah dan menyenangkan kapan saja sepanjang tahun. </p>
+    </div>
+    <div class="col">
+      <i class="fa fa-comment" style="font-size: 40px; display: inline-block;"></i>
+      <h5 style="font-weight: bold; display: inline-block; text-align: center; vertical-align: middle; padding-bottom: 10px; padding-left: 20px;">Live Customer Support</h5>
+      <br>
+      <p class="text" style="padding-top: 10px;">Jika Anda memerlukan bantuan dalam memilih atau menyewa buku kami, silakan hubungi dukungan pelanggan kami atau tinggalkan pesan untuk kami menggunakan formulir di situs web kami. </p>
+    </div>
+  </div>
+</div>
+  
+
+<div class="container-fluid" style="padding-bottom: 80px;" id="middle">
+    <div style="padding-top: 130px;">
+      <h2 style="font-weight: bold; text-align: center;">Katalog Kami</h2>
+      <hr style="background-color: crimson; width: 10%;  border: none; height: 3px; margin-top: 25px; margin-bottom: 25px;">
+      <br>
+    </div>
+    
+    <div class="container-fluid" style="padding-bottom: 30px; text-align: center;">
+      <a target="_blank" class="btn-cta btn-cta-1" style="font-size: 14px; padding: 12px 40px 12px 40px; margin-right: 10px;" href="index.html">
+        <span class="text-before">BEST SELLER</span>
+        <span class="text-after">BEST SELLER</span>
+      </a>
+      <a target="_blank" class="btn-cta btn-cta-1" style="font-size: 14px; padding: 12px 40px 12px 40px; margin-right: 10px;" href="index.html">
+        <span class="text-before">TERBARU</span>
+        <span class="text-after">TERBARU</span>
+      </a>
+      <a target="_blank" class="btn-cta btn-cta-1" style="font-size: 14px; padding: 12px 40px 12px 40px; margin-right: 10px;" href="index.html">
+        <span class="text-before">ON SALE</span>
+        <span class="text-after">ON SALE</span>
+      </a>
+      <a target="_blank" class="btn-cta btn-cta-1" style="font-size: 14px; padding: 12px 40px 12px 40px;" href="index.html">
+        <span class="text-before">TERFAVORIT</span>
+        <span class="text-after">TERFAVORIT</span>
+      </a>
+    </div>
+    
+    <div class="row m-0">
+      <div class="col card box19 shadow" style="margin-right: 35px; text-align: center;">
+        <img src="https://cdn.gramedia.com/uploads/items/selamat_tinggal.jpg" class="shadow-img" style="margin: 40px 60px 30px 60px">
+        <h6>Selamat Tinggal</h6>
+        <h6 style="font-weight: bold; margin-bottom: 40px;">Rp 85.000,00</h6>
+        <div class="box-content">
+          <ul class="icon">
+            <li><a href="#"><i class="fa fa-search"></i></a></li>
+            <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+          </ul>
+          <h3 class="title">Order Sekarang</h3>
+        </div>
+      </div>
+      <div class="col card box19 shadow" style="margin-right: 35px; text-align: center;">
+        <img src="https://cdn.gramedia.com/uploads/items/9786020642772_TEN_YEARS_CHALLENGE_cover_depan.jpg" class="shadow-img" style="margin: 40px 60px 30px 60px">
+        <h6>Ten Years Challenge</h6>
+        <h6 style="font-weight: bold; margin-bottom: 40px;">Rp 69.000,00</h6>
+        <div class="box-content">
+          <ul class="icon">
+            <li><a href="#"><i class="fa fa-search"></i></a></li>
+            <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+          </ul>
+          <h3 class="title">Order Sekarang</h3>
+        </div>
+      </div>
+      <div class="col card box19 shadow" style="margin-right: 35px; text-align: center;">
+        <img src="https://cdn.gramedia.com/uploads/items/9786020351179_Bintang_KMkHa9G.jpg" class="shadow-img" style="margin: 40px 60px 30px 60px">
+        <h6>Bintang</h6>
+        <h6 style="font-weight: bold; margin-bottom: 40px;">Rp 88.000,00</h6>
+        <div class="box-content">
+          <ul class="icon">
+            <li><a href="#"><i class="fa fa-search"></i></a></li>
+            <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+          </ul>
+          <h3 class="title">Order Sekarang</h3>
+        </div>
+      </div>
+      <div class="col card box19 shadow" style="margin-right: 35px; text-align: center;">
+        <img src="https://cdn.gramedia.com/uploads/items/9786020639512_selena_cov.jpg" class="shadow-img" style="margin: 40px 60px 30px 60px">
+        <h6>Selena</h6>
+        <h6 style="font-weight: bold; margin-bottom: 40px;">Rp 85.000,00</h6>
+        <div class="box-content">
+          <ul class="icon">
+            <li><a href="product.html"><i class="fa fa-search"></i></a></li>
+            <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+          </ul>
+          <h3 class="title">Order Sekarang</h3>
+        </div>
+      </div>
+      
+      <div class="row m-0" style="padding-top: 40px;">
+        <div class="col card box19 shadow" style="margin-right: 35px; text-align: center;">
+          <img src="https://cdn.gramedia.com/uploads/items/9786020639536_nebula_cov.jpg" class="shadow-img" style="margin: 40px 60px 30px 60px">
+          <h6>Nebula</h6>
+          <h6 style="font-weight: bold; margin-bottom: 40px;">Rp 85.000,00</h6>
+          <div class="box-content">
+            <ul class="icon">
+              <li><a href="#"><i class="fa fa-search"></i></a></li>
+              <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+            </ul>
+            <h3 class="title">Order Sekarang</h3>
+          </div>
+        </div>
+        <div class="col card box19 shadow" style="margin-right: 35px; text-align: center;">
+          <img src="https://cdn.gramedia.com/uploads/items/9786020851563_milea_suara_dari_dilan_1.jpg" class="shadow-img" style="margin: 40px 60px 30px 60px">
+          <h6>Milea Suara Dari Dilan</h6>
+          <h6 style="font-weight: bold; margin-bottom: 40px;">Rp 89.000,00</h6>
+          <div class="box-content">
+            <ul class="icon">
+              <li><a href="#"><i class="fa fa-search"></i></a></li>
+              <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+            </ul>
+            <h3 class="title">Order Sekarang</h3>
+          </div>
+        </div>
+        <div class="col card box19 shadow" style="margin-right: 35px; text-align: center;">
+        <img src="https://cdn.gramedia.com/uploads/items/9786020332956_Bumi-New-Cover.jpg" class="shadow-img" style="margin: 40px 60px 30px 60px">
+        <h6>Bumi - New Cover</h6>
+        <h6 style="font-weight: bold; margin-bottom: 40px;">Rp 103.000,00</h6>
+        <div class="box-content">
+          <ul class="icon">
+            <li><a href="#"><i class="fa fa-search"></i></a></li>
+            <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+          </ul>
+          <h3 class="title">Order Sekarang</h3>
+        </div>
+      </div>
+      <div class="col card box19 shadow" style="margin-right: 35px; text-align: center;">
+        <img src="https://cdn.gramedia.com/uploads/items/9780545582957.jpg" class="shadow-img" style="margin: 40px 60px 30px 60px">
+        <h6>Harry Potter and The Goblet of Fire</h6>
+        <h6 style="font-weight: bold; margin-bottom: 40px;">Rp 260.000,00</h6>
+        <div class="box-content">
+          <ul class="icon">
+            <li><a href="#"><i class="fa fa-search"></i></a></li>
+            <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+          </ul>
+          <h3 class="title">Order Sekarang</h3>
+        </div>
+      </div>
+    </div>
+    
+    <div class="container-fluid" style="padding-top: 60px; text-align: center;">
+      <a target="_blank" class="btn-cta btn-cta-1" style="font-size: 14px; padding: 12px 40px 12px 40px; margin-right: 10px;" href="index.html">
+        <span class="text-before">LIHAT LEBIH BANYAK</span>
+        <span class="text-after">LIHAT LEBIH BANYAK</span>
+      </a>
+    </div>
+  </div>
+</div>
+  
+  <!-- Hero Footer -->
+  <div class="hero-foot">
+    <div class="hero-text-mid">
+      <h2 style="font-weight: bold;">Hubungi Kami</h2>
+      <br>
+      <p style="font-size: 18px;">Ada pertanyaan? Hubungi kami di <b>0896-4886-1268</b> atau email <b>maulanafanny38@gmail.com</b></p>
+      <br><br><br><br>
+      <p style="font-size: 18px;">Jl. Perintis Kemerdekaan no.15, Temanggung, Jawa Tengah 56224</p>
+    </div>
+  </div>
+</body>
+</html>
